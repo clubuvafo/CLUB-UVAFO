@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../Multimedia/escudo favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="../Multimedia/Escudo.png" alt="Escudo" height="10%" width="10%">
+        <h1>UNIÓN VECINAL AMIGOS DE FLORIDA OESTE</h1>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a class="nav3" href="institucion.html">Institución</a>
+                </li>
+                <li>
+                    <a href="futsal.html">Futsal</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <li class="slider"></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto">
+        <p id="textocontacto">Mediante el formulario de contacto vas a poder comunicarte para cualquier tipo de problema o duda que se le presente</p>
+        <form class="formulario" action="enviar.php" method="post" enctype="text/plain" netlify>
+            <label for="nombre" class="nombre">Nombre:</label>
+            <input id="nombre" type="text" required>
+            <label for="apellido" class="apellido">Apellido:</label>
+            <input id="apellido" type="text" required>
+            <label for="numero">Número de contacto:</label>
+            <input id="numero" type="number" required>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" required>
+            <select name="Opciones" required>
+                <option value="opcion">Elegir una opción</option>
+                <option value="alquilercancha">Alquiler de cancha</option>
+                <option value="alquilersalon">Alquiler de salón</option>
+                <option value="otrasconsultas">Otras consultas</option>
+            </select>
+            <label for="consulta">Consulta:</label>
+            <textarea class="textarea" name="Comentarios" id="consulta" cols="30" rows="5" placeholder="Escribe tu consulta..."></textarea> <br>
+            <input class="boton" type="submit" name="botonenviar" value="Enviar">
+            <input class="boton" type="reset" name="botonreset">
+          </form>
+    </main>
+    <footer>
+        <p>Powered by Nahuel Rubio</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.4319912068872!2d-58.51510348423829!3d-34.5426161617759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb72920d86873%3A0x57a8a19ee103c95!2sClub%20U.V.A.F.O.!5e0!3m2!1ses-419!2sar!4v1656538293154!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="redes">
+            <a href="https://www.facebook.com/UVAFO-Oficial-483148658526272" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/clubuvafo/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/ClubUVAFO" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

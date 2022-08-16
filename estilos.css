@@ -1,322 +1,377 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    background-color: #c10000;
-    width: auto;
-    height: auto;
-    border: 1px solid black;
-    text-align: center;
+
+header {
+  background-color: #c10000;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
 }
-header img{
-    padding-top: 20px;
-    padding-bottom: 20px;
+header header img {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-h1{
-    padding-bottom: 20px;
-    color: black;
+header h1 {
+  padding-bottom: 20px;
+  color: black;
 }
-.nav3:hover{
-    color: black;
+
+.nav3:hover {
+  color: black;
 }
-.navblanco:hover{
-    color: white;
+
+.navblanco:hover {
+  color: white;
 }
+
 .menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 40px;
-    margin: auto;
-    position: relative;
-    background-color: #c10000;
-    z-index: 7;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  background-color: #c10000;
+  z-index: 7;
+}
+.menu li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  z-index: 9;
+}
+
+li.slider {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 8;
+  transition: left 0.4s, background-color 0.4s;
+}
+
+.menu li:nth-child(1):hover ~ .slider,
+.menu li:nth-child(1):focus ~ .slider,
+.menu li:nth-child(1):active ~ .slider {
+  left: 0;
+  background-color: #c10000;
+}
+
+.menu li:nth-child(2):hover ~ .slider,
+.menu li:nth-child(2):focus ~ .slider,
+.menu li:nth-child(2):active ~ .slider {
+  left: 20%;
+  background-color: #c10000;
+}
+
+.menu li:nth-child(3):hover ~ .slider,
+.menu li:nth-child(3):focus ~ .slider,
+.menu li:nth-child(3):active ~ .slider {
+  left: 40%;
+  background-color: white;
+  color: black;
+}
+
+.menu li:nth-child(4):hover ~ .slider,
+.menu li:nth-child(4):focus ~ .slider,
+.menu li:nth-child(4):active ~ .slider {
+  left: 60%;
+  background-color: #132668;
+}
+
+.menu li:nth-child(5):hover ~ .slider,
+.menu li:nth-child(5):focus ~ .slider,
+.menu li:nth-child(5):active ~ .slider {
+  left: 80%;
+  background-color: #132668;
+}
+
+main {
+  border: 1px solid black;
+}
+main a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #132668;
+  border: 1px solid black;
+  text-align: center;
+}
+footer p {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+}
+footer footer iframe {
+  padding-bottom: 30px;
+  width: 350px;
+  height: 300px;
+}
+footer .redes i {
+  font-size: 40px;
+  color: black;
+  margin-left: 25px;
+}
+footer .redes i:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .escudo {
+    display: none;
   }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .menu li {
-    float: left;
+    float: none;
     width: 20%;
     height: 100%;
+    background-color: #c10000;
     margin: 0;
     padding: 0;
   }
-  .menu a {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-    font-size: 18px;
-    z-index: 9;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maingaleria img {
+    width: 150px;
+    height: 150px;
   }
-  li.slider {
-    width: 20%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 8;
-    transition: left 0.4s, background-color 0.4s;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maingaleria h3 {
+    font-size: 14px;
   }
-  .menu li:nth-child(1):hover ~ .slider,
-  .menu li:nth-child(1):focus ~ .slider,
-  .menu li:nth-child(1):active ~ .slider {
-    left: 0;
-    background-color: #c10000;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maingaleria h2 {
+    font-size: 16px;
   }
-  .menu li:nth-child(2):hover ~ .slider,
-  .menu li:nth-child(2):focus ~ .slider,
-  .menu li:nth-child(2):active ~ .slider {
-    left: 20%;
-    background-color: #c10000;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  footer iframe {
+    width: 200px;
+    height: 200px;
   }
-  .menu li:nth-child(3):hover ~ .slider,
-  .menu li:nth-child(3):focus ~ .slider,
-  .menu li:nth-child(3):active ~ .slider {
-    left: 40%;
-    background-color: white;
-    color: black;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .textoinicio {
+    font-size: 14px;
   }
-  .menu li:nth-child(4):hover ~ .slider,
-  .menu li:nth-child(4):focus ~ .slider,
-  .menu li:nth-child(4):active ~ .slider {
-    left: 60%;
-    background-color: #132668;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maininstitucion h4 {
+    font-size: 14px;
   }
-  .menu li:nth-child(5):hover ~ .slider,
-  .menu li:nth-child(5):focus ~ .slider,
-  .menu li:nth-child(5):active ~ .slider {
-    left: 80%;
-    background-color: #132668;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maininstitucion p {
+    font-size: 12px;
   }
-main{
-    border: 1px solid black;
 }
-.maingaleria{
-    text-align: center;
-}
-main a{
-    color: black;
-    text-decoration: none;
-}
-#tituloinstitucion{
-    padding-top: 50px;
-}
-.textoinstitucion{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-#titulofutsal{
-    padding-top: 25px;
-}
-.subtitulosfutsal{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-#textocontacto{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-footer{
-    background-color: #132668;
-    border: 1px solid black;
-    text-align: center;
-}
-footer p{
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: black;
-}
-footer iframe{
-    padding-bottom: 30px;
-    width: 350px;
-    height: 300px;
-}
-footer .redes i{
-    font-size: 40px;
-    color: black;
-    margin-left: 25px;
-}
-footer .redes i:hover{
-    color: white;
-}
-.contacto ul li{
-    list-style: none;
-    display: inline-block;
-}
-.textarea {
-    resize: none;
-}
-form {
-    display: grid;
-    padding: 10px;
-    background: #f9f9f9;
-    border: 1px solid #c1c1c1;
-    margin: 20px auto 0 auto;
-    max-width: 600px;
-    padding: 10px;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maininstitucion h3 {
+    font-size: 15px;
   }
-form input {
-    background: #fff;
-    border: 1px solid #9c9c9c;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .maininstitucion h2 {
+    font-size: 16px;
   }
-form .boton {
-    background: lightgrey;
-    padding: 7px;
-    width: 100%;
-    border: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .futsal h2 {
+    font-size: 16px;
   }
-form .boton:hover {
-    background: #c10000;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .futsal h3 {
+    font-size: 14px;
   }
-label {
-    padding: 5px 5px 5px 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .futsal p {
+    font-size: 12px;
   }
-input {
-    padding: 7px;
-    margin-bottom: 5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .futsal a {
+    font-size: 12px;
   }
-input:focus {
-    outline: 3px solid #132668;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contacto p {
+    font-size: 13px;
   }
-textarea:focus {
-    outline: 3px solid #132668;
+}
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  .maingaleria img {
+    width: 200px;
+    height: 200px;
   }
-select:focus {
-    outline: 2px solid #132668;
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .maingaleria img {
+    width: 250px;
+    height: 250px;
   }
-.lead {
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
-@media only screen and (min-width: 320px) and (max-width: 767px){
-    .escudo{
-        display: none;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 767px){
-    h1{
-        display: none;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 767px){
-    .menu li{
-        float: none;
-        width: 20%;
-        height: 100%;
-        background-color: #c10000;
-        margin: 0;
-        padding: 0;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    footer iframe{
-        width: 200px;
-        height: 200px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .textoinicio{
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maingaleria img{
-        width: 150px;
-        height: 150px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maingaleria h3{
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maingaleria h2{
-        font-size: 16px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maininstitucion h4{
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maininstitucion p{
-        font-size: 12px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maininstitucion h3{
-        font-size: 15px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .maininstitucion h2{
-        font-size: 16px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .futsal h2{
-        font-size: 16px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .futsal h3{
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .futsal p{
-        font-size: 12px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .futsal a{
-        font-size: 12px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    .contacto p{
-        font-size: 13px;
-    }
-}
-@media only screen and (min-width: 480px) and (max-width: 600px){
-    .maingaleria img{
-        width: 200px;
-        height: 200px;
-    }
-}
-@media only screen and (min-width: 600px) and (max-width: 1023px){
-    .maingaleria img{
-        width: 250px;
-        height: 250px;
-    }
-}
-@media only screen and (min-width: 1023px) and (max-width: 1300px){
-    .maingaleria img{
-        width: 470px;
-        height: 470px;
-    }
+@media only screen and (min-width: 1023px) and (max-width: 1300px) {
+  .maingaleria img {
+    width: 470px;
+    height: 470px;
+  }
 }
 @media only screen and (min-width: 650px) {
-    .formulario{
-      grid-template-columns: 200px 1fr;
-      grid-gap: 16px;
-    }
-  
-    form label{
-      text-align: right;
-      grid-column: 1 / 2;
-    }
-  
-    form input,
-    .textarea {
-      grid-column: 2 / 3;
-    }
+  .formulario {
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
   }
+  form label {
+    text-align: right;
+    grid-column: 1/2;
+  }
+  form input,
+.textarea {
+    grid-column: 2/3;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maingaleria {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tituloinstitucion {
+  padding-top: 50px;
+}
+
+.textoinstitucion {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#titulofutsal {
+  padding-top: 25px;
+}
+
+.subtitulosfutsal {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#textocontacto {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contacto ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.textarea {
+  resize: none;
+}
+
+form {
+  display: grid;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 20px auto 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form input .boton {
+  background: lightgrey;
+  padding: 7px;
+  width: 100%;
+  border: 0;
+}
+form input .boton .boton:hover {
+  background: #c10000;
+}
+
+label {
+  padding: 5px 5px 5px 0;
+}
+
+input {
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline: 3px solid #132668;
+}
+
+textarea:focus {
+  outline: 3px solid #132668;
+}
+
+select:focus {
+  outline: 2px solid #132668;
+}
+
+.lead {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}/*# sourceMappingURL=estilos.css.map */

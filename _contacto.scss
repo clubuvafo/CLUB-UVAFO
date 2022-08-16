@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#textocontacto {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contacto ul li {
+
+    list-style: none;
+    display: inline-block;
+}
+
+.textarea {
+
+    resize: none;
+}
+
+form {
+
+    display: grid;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 20px auto 0 auto;
+    max-width: 600px;
+    padding: 10px;
+
+    input {
+        
+        background: #fff;
+        border: 1px solid #9c9c9c;
+
+    .boton {
+
+        background: lightgrey;
+        padding: 7px;
+        width: 100%;
+        border: 0;
+
+    .boton:hover {
+
+        background: $color1;
+}
+}
+}
+}
+
+label {
+    padding: 5px 5px 5px 0;
+}
+
+input {
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    outline: 3px solid $color2;
+}
+
+textarea:focus {
+    outline: 3px solid $color2;
+}
+
+select:focus {
+    outline: 2px solid $color2;
+}
+
+.lead {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

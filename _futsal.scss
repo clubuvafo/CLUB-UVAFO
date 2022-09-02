@@ -1,6 +1,24 @@
 #titulofutsal {
     padding-top: 25px;
 }
+.mainfutsal{
+    text-align: center;
+    padding-top: 10px;
+}
 .cartasfutsal{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.card{
+    a{
+        background-color: #132668;
+        color: white;
+    }
+}
+.card{
+    a:hover{
+        background-color: #c10000;
+        color: white;
+    }
 }

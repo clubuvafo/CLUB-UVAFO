@@ -1,0 +1,49 @@
+.modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.botondescarga{
+    color: white;
+}
+.botondescarga:hover{
+    color: white;
+}
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-footer{
+    button{
+        background-color: #132668;
+        color: white;
+        border: black 1px solid;
+    }
+    
+}
+.modal-footer{
+    button:hover{
+        background-color: #c10000;
+    }
+}
+.modalbaby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.botonbaby{
+    button{
+        background-color: #132668;
+        color: white;
+        border: black 1px solid;
+    }
+}
+.botonbaby{
+    button:hover{
+        background-color: #c10000;
+    }
+}

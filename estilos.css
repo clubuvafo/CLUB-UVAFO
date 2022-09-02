@@ -101,6 +101,22 @@ footer h6 {
     width: 150px;
   }
 }
+@media only screen and (min-width: 800px) {
+  #carouselExampleIndicators {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .deportes th {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .deportes td {
+    font-size: 10px;
+  }
+}
 @media only screen and (max-width: 888px) {
   .cartasfutsal {
     display: flex;
@@ -140,12 +156,6 @@ footer h6 {
 @media only screen and (min-width: 300px) and (max-width: 991px) {
   header {
     height: auto;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  footer iframe {
-    width: 200px;
-    height: 200px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -197,6 +207,192 @@ footer h6 {
     grid-column: 2/3;
   }
 }
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.botondescarga {
+  color: white;
+}
+
+.botondescarga:hover {
+  color: white;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-footer button {
+  background-color: #132668;
+  color: white;
+  border: black 1px solid;
+}
+
+.modal-footer button:hover {
+  background-color: #c10000;
+}
+
+.modalbaby {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.botonbaby button {
+  background-color: #132668;
+  color: white;
+  border: black 1px solid;
+}
+
+.botonbaby button:hover {
+  background-color: #c10000;
+}
+
+#tituloinstitucion {
+  padding-top: 50px;
+}
+
+.maindeportes {
+  text-align: center;
+  padding-top: 10px;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  width: 100%;
+  border: 2px solid #132668;
+  text-align: center;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+}
+
+table th {
+  text-transform: uppercase;
+  width: 110px;
+  background: #c10000;
+  color: #e8e8e8;
+  padding: 8px 0;
+  font-weight: normal;
+  border-bottom: 2px solid #c10000;
+}
+
+i {
+  padding-right: 10px;
+  color: #132668;
+}
+
+.deportes .accordion {
+  width: auto;
+  padding-bottom: 50px;
+}
+
+.deportes p {
+  text-align: center;
+}
+
+.partidosfutsal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.cartasfutsal {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.card a {
+  background-color: #132668;
+  color: white;
+}
+
+.card a:hover {
+  background-color: #c10000;
+  color: white;
+}
+
+#textocontacto {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contacto ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.textarea {
+  resize: none;
+}
+
+form {
+  display: grid;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 20px auto 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+
+form input .boton {
+  background: lightgrey;
+  padding: 7px;
+  width: 100%;
+  border: 0;
+}
+
+form input .boton .boton:hover {
+  background: #c10000;
+}
+
+label {
+  padding: 5px 5px 5px 0;
+}
+
+input {
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline: 3px solid #132668;
+}
+
+textarea:focus {
+  outline: 3px solid #132668;
+}
+
+select:focus {
+  outline: 2px solid #132668;
+}
+
+.lead {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .modal-body {
   display: flex;
   align-items: center;
@@ -332,4 +528,6 @@ select:focus {
 .lead {
   padding-top: 60px;
   padding-bottom: 60px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */

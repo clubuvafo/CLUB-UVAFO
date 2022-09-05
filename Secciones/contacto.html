@@ -48,6 +48,14 @@
                     <li>
                         <a class="dropdown-item" href="sub-secciones/presupuesto.html">Presupuesto Participativo 2022</a>
                     </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a class="dropdown-item" href="sub-secciones/noticias.html">Noticias</a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a class="dropdown-item" href="sub-secciones/asociateahora.html">¡Asociate ahora!</a>
+                    </li>
                 </ul>
             </li>
             <li class="nav-item dropdown">
@@ -71,29 +79,60 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <p class="lead">Mediante el formulario de contacto vas a poder comunicarte para cualquier tipo de problema o duda que se le presente.</p>
+        <div class="text-center text-lg-start text-muted">
+            <section class="textocontacto">
+                <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">CONTACTO</h6>
+                    <form class="formulario" action="enviar.php" method="post" enctype="text/plain" netlify>
+                        <label for="nombre" class="label1">Nombre:</label>
+                        <input id="nombre" type="text" required>
+                        <label for="numero" class="label2">Número de contacto:</label>
+                        <input id="numero" type="number" required>
+                        <select class="select" name="Opciones" required> 
+                            <option value="opcion">Elegir una opción</option>
+                            <option value="alquilercancha">Alquiler de cancha</option>
+                            <option value="alquilersalon">Alquiler de salón</option>
+                            <option value="otrasconsultas">Otras consultas</option>
+                        </select>
+                        <textarea class="textarea" name="Comentarios" id="consulta" cols="30" rows="5" placeholder="Escribe tu consulta..."></textarea>
+                        <input class="boton" type="submit" name="botonenviar" value="Enviar">
+                    </form>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="width: 275px;">
+                    <h6 class="text-uppercase fw-bold mb-4">E-MAILS</h6>
+                    <p><i class="fas fa-envelope me-3"></i><a href="mailto:info@clubuvafo.online">info@clubuvafo.online</a></p>
+                    <p><i class="fas fa-envelope me-3"></i><a href="mailto:futsal@clubuvafo.online">futsal@clubuvafo.online</a></p>
+                    <p><i class="fas fa-envelope me-3"></i><a href="mailto:babyfutbol@clubuvafo.online">babyfutbol@clubuvafo.online</a></p>
+                    <p><i class="fas fa-envelope me-3"></i><a href="mailto:buffet@clubuvafo.online">buffet@clubuvafo.online</a></p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">TELÉFONOS</h6>
+                    <p>Información de Baby Fútbol</p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491165542447">+54 9 11 6554 2447</a></p>
+                    <p>Información de Escuelita de Fútbol</p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491134430333">+54 9 11 3443-0333</a></p>
+                    <p>Información de Futsal</p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491163634422">+54 9 11 6363 4422</a></p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491165749390">+54 9 11 6574-9390</a></p>
+                    <p>Alquiler de canchas/salón</p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491157269384">+54 9 11 5726-9384</a></p>
+                    <p>Buffet</p>
+                    <p><i class="fas fa-phone me-3"></i><a href="https://wa.me/+5491158371502">+54 9 11 5837-1502</a></p>
+                </div>
+                </div>
+            </div>
+            </section>
         </div>
-        <form class="formulario" action="enviar.php" method="post" enctype="text/plain" netlify>
-            <label for="nombre" class="nombre">Nombre:</label>
-            <input id="nombre" type="text" required>
-            <label for="apellido" class="apellido">Apellido:</label>
-            <input id="apellido" type="text" required>
-            <label for="numero">Número de contacto:</label>
-            <input id="numero" type="number" required>
-            <label for="email">E-mail:</label>
-            <input id="email" type="email" required>
-            <select name="Opciones" required>
-                <option value="opcion">Elegir una opción</option>
-                <option value="alquilercancha">Alquiler de cancha</option>
-                <option value="alquilersalon">Alquiler de salón</option>
-                <option value="otrasconsultas">Otras consultas</option>
-            </select>
-            <label for="consulta">Consulta:</label>
-            <textarea class="textarea" name="Comentarios" id="consulta" cols="30" rows="5" placeholder="Escribe tu consulta..."></textarea> <br>
-            <input class="boton" type="submit" name="botonenviar" value="Enviar">
-            <input class="boton" type="reset" name="botonreset">
-        </form>
+        <div class="suscribirse">
+            <h2>Suscribirse</h2>
+            <p class="lead">Suscríbase a nuestro boletín de noticias para estar actualizado en todo momento.</p>
+            <form class="formulario2" action="enviar.php" method="post" enctype="text/plain" netlify>
+                <input id="email" type="email" required>
+                <input class="boton" type="submit" name="botonenviar" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer class="text-center text-lg-start text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

@@ -187,6 +187,11 @@ footer h6 {
     width: 135px;
   }
 }
+@media only screen and (max-width: 456px) {
+  .conformaciontabla {
+    display: none;
+  }
+}
 .modal-body {
   display: flex;
   align-items: center;
@@ -480,9 +485,6 @@ select:focus {
   color: #132668;
   font-weight: lighter;
 }
-
-/*# sourceMappingURL=estilos.css.map */
-
 .presupuestoparticipativo{
   text-align: center;
   padding-top: 20px;
@@ -541,11 +543,8 @@ select:focus {
   color: #c10000;
   margin: 1px;
 }
-@media only screen and (max-width: 456px) {
-  .conformaciontabla {
-    display: none;
-  }
-}
 .titulosocios{
   padding-top: 10px;
 }
+
+/*# sourceMappingURL=estilos.css.map */

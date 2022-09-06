@@ -1,72 +1,91 @@
-
-#textocontacto {
-    padding-top: 25px;
-    padding-bottom: 25px;
+.suscribirse{
+text-align: center;
+border: #132668 1px solid;
+background-color: #f9f9f9;
+padding: 10px;
+margin: 20px;
 }
-
-.contacto ul li {
-
-    list-style: none;
-    display: inline-block;
+.suscribirse h2{
+color: #132668;
 }
-
-.textarea {
-
-    resize: none;
+.suscribirse p{
+color: #132668;
 }
-
-form {
-
-    display: grid;
-    padding: 10px;
-    background: #f9f9f9;
-    border: 1px solid #c1c1c1;
-    margin: 20px auto 0 auto;
-    max-width: 600px;
-    padding: 10px;
-
-    input {
-        
-        background: #fff;
-        border: 1px solid #9c9c9c;
-
-    .boton {
-
-        background: lightgrey;
-        padding: 7px;
-        width: 100%;
-        border: 0;
-
-    .boton:hover {
-
-        background: $color1;
+.formulario {
+display: grid;
+grid-template-areas: 
+"label1"
+"input1"
+"label2"
+"input2"
+"select"
+"textarea"
+"boton";
+padding: 10px;
+background: #f9f9f9;
+border: 1px solid #c1c1c1;
+margin: 20px auto 0 auto;
+max-width: 600px;
+height: 430px;
 }
+.select{
+grid-area: select;
+margin-top: 10px;
 }
+.textarea{
+grid-area: textarea;
+margin-top: 10px;
+resize: none;
 }
+.formulario .boton{
+grid-area: boton;
+margin-top: 10px;
+background: #c10000;
+color: white;
+padding: 7px;
+width: 100%;
+border: 0;
 }
-
-label {
-    padding: 5px 5px 5px 0;
+.boton{
+background: #c10000;
+color: white;
+padding: 7px;
+border: 0;
 }
-
-input {
-    padding: 7px;
-    margin-bottom: 5px;
+#email{
+padding: 7px;
 }
-
+#nombre{
+grid-area: input1;
+background: #fff;
+border: 1px solid #9c9c9c;
+}
+#numero{
+grid-area: input2;
+background: #fff;
+border: 1px solid #9c9c9c;
+}
 input:focus {
-    outline: 3px solid $color2;
+outline: 3px solid #132668;
 }
 
 textarea:focus {
-    outline: 3px solid $color2;
+outline: 3px solid #132668;
 }
 
 select:focus {
-    outline: 2px solid $color2;
+outline: 2px solid #132668;
 }
-
-.lead {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.textocontacto i{
+color: #c10000;
+}
+.textocontacto h6{
+color: #132668;
+}
+.textocontacto p{
+color: #132668;
+}
+.textocontacto a{
+color: #132668;
+font-weight: lighter;
 }

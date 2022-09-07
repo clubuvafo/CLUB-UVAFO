@@ -150,10 +150,34 @@ height: auto
 .textoinicio 
 font-size: 14px
 
+@media only screen and (max-width: 456px) 
+.conformaciontabla 
+    display: none
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) 
+.select 
+    width: 135px
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) 
-.col-md-3 
-width: 80%
+.textarea 
+    width: 135px
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+#nombre 
+    width: 135px
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+#numero 
+    width: 135px
+
+
+@media only screen and (max-width: 456px) 
+.conformaciontabla 
+    display: none
+
 
 
 .modal-body
@@ -210,6 +234,7 @@ border-spacing: 2px
 width: 100%
 border: 2px solid #132668
 text-align: center
+margin-bottom: 20px
 
 th 
 display: table-cell
@@ -359,6 +384,66 @@ color: #132668
 .textocontacto a
 color: #132668
 font-weight: lighter
+.presupuestoparticipativo
+text-align: center
+padding-top: 20px
+
+.presupuestoparticipativo button
+background-color: #132668
+color: white
+border: black solid 1px
+
+.presupuestoparticipativo button:focus
+background-color: #c10000
+color: white
+
+.presupuestoparticipativo button:active
+background-color: #c10000
+color: white
+
+.presupuestoparticipativo button:hover
+background-color: #c10000
+
+.presupuestoparticipativo p a
+background-color: white
+color: #c10000
+
+.titulopresupuesto
+text-align: center
+padding: 20px
+
+.presupuestoparticipativo .card-body
+margin: 30px
+background-color: #f9f9f9
+border: #132668 solid 1px
+
+
+.presupuestoparticipativo .btn-primary
+margin-left: 30px
+margin-right: 30px
+
+.presupuestoparticipativo .card-title
+color: #132668
+
+
+.asociateahora 
+text-align: center
+
+.asociateahora .accordion 
+width: auto
+padding-bottom: 50px
+
+
+.asociateahora p 
+text-align: center
+
+.textogrupofamiliar
+text-align: left
+color: #c10000
+margin: 1px
+
+.titulosocios
+padding-top: 10px
 
 
 @import "_index"

@@ -1,0 +1,41 @@
+.presupuestoparticipativo{
+text-align: center;
+padding-top: 20px;
+}
+.presupuestoparticipativo button{
+background-color: #132668;
+color: white;
+border: black solid 1px;
+}
+.presupuestoparticipativo button:focus{
+background-color: #c10000;
+color: white;
+}
+.presupuestoparticipativo button:active{
+background-color: #c10000;
+color: white;
+}
+.presupuestoparticipativo button:hover{
+background-color: #c10000;
+}
+.presupuestoparticipativo p a{
+background-color: white;
+color: #c10000;
+}
+.titulopresupuesto{
+text-align: center;
+padding: 20px;
+}
+.presupuestoparticipativo .card-body{
+margin: 30px;
+background-color: #f9f9f9;
+border: #132668 solid 1px;
+
+}
+.presupuestoparticipativo .btn-primary{
+margin-left: 30px;
+margin-right: 30px;
+}
+.presupuestoparticipativo .card-title{
+color: #132668;
+}

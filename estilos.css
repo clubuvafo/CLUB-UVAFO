@@ -139,7 +139,7 @@ footer h6 {
   }
 }
 @media only screen and (min-width: 800px) {
-  #carouselExampleIndicators {
+  .partidosfutsal #carouselExampleIndicators {
     width: 700px;
     height: 700px;
   }
@@ -203,6 +203,12 @@ footer h6 {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .select {
     width: 135px;
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .label2 {
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -223,6 +229,12 @@ footer h6 {
 @media only screen and (max-width: 456px) {
   .conformaciontabla {
     display: none;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .noticiasimportantes #carouselExampleCaptions {
+    width: 800px;
+    height: 400px;
   }
 }
 .presupuestoparticipativo {
@@ -497,4 +509,23 @@ select:focus {
 
 .titulosocios {
   padding-top: 10px;
+}
+
+.noticiasimportantes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.noticiasgenerales {
+  margin: 20px;
+}
+
+.noticiasgenerales h2 {
+  margin: 20px;
+}
+
+.ultimasnoticias {
+  margin-top: 50px;
 }/*# sourceMappingURL=estilos.css.map */

@@ -121,7 +121,7 @@ $color2: #132668;
     }
   }
   @media only screen and (min-width: 800px){
-    #carouselExampleIndicators{
+    .partidosfutsal #carouselExampleIndicators{
       width: 700px;
       height: 700px;
     }
@@ -185,6 +185,12 @@ $color2: #132668;
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .select {
       width: 135px;
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .label2 {
+      font-size: 14px;
     }
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -207,6 +213,12 @@ $color2: #132668;
       display: none;
     }
   }
+  @media only screen and (min-width: 800px) {
+    .noticiasimportantes #carouselExampleCaptions {
+      width: 800px;
+      height: 400px
+    }
+  }
 @import "_index";
 @import "_galeria";
 @import "_historia";
@@ -215,3 +227,4 @@ $color2: #132668;
 @import "_futsal";
 @import "_contacto";
 @import "_asociateahora";
+@import "_noticias";

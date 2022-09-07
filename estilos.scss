@@ -41,6 +41,7 @@ $color2: #132668;
   }
   main {
     border: 1px solid black;
+    text-align: center;
   }
   main a {
     color: black;
@@ -273,12 +274,14 @@ $color2: #132668;
     background-color: #c10000;
     color: white;
   }
-  .partidobaby img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: 700;
+  .partidobaby{
+    img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      height: 700;
+    }
   }
   .imagenes{
     display: flex;
@@ -294,11 +297,15 @@ $color2: #132668;
     padding: 10px;
     margin: 20px;
   }
-  .suscribirse h2{
-    color: #132668;
+  .suscribirse{
+    h2{
+      color: #132668;
+    }
   }
-  .suscribirse p{
-    color: #132668;
+  .suscribirse{
+    p{
+      color: #132668;
+    }
   }
   .formulario {
     display: grid;
@@ -326,14 +333,16 @@ $color2: #132668;
     margin-top: 10px;
     resize: none;
   }
-  .formulario .boton{
-    grid-area: boton;
-    margin-top: 10px;
-    background: #c10000;
-    color: white;
-    padding: 7px;
-    width: 100%;
-    border: 0;
+  .formulario{
+    .boton{
+      grid-area: boton;
+      margin-top: 10px;
+      background: #c10000;
+      color: white;
+      padding: 7px;
+      width: 100%;
+      border: 0;
+    }
   }
   .boton{
     background: #c10000;
@@ -382,54 +391,62 @@ $color2: #132668;
     text-align: center;
     padding-top: 20px;
   }
-  .presupuestoparticipativo button{
+  .presupuestoparticipativo{
+    button{
     background-color: #132668;
     color: white;
     border: black solid 1px;
+    }
   }
-  .presupuestoparticipativo button:focus{
-    background-color: #c10000;
-    color: white;
+  .presupuestoparticipativo{
+    button:focus{
+      background-color: #c10000;
+      color: white;
+    }
   }
-  .presupuestoparticipativo button:active{
-    background-color: #c10000;
-    color: white;
+  .presupuestoparticipativo{
+    button:active{
+      background-color: #c10000;
+      color: white;
   }
-  .presupuestoparticipativo button:hover{
-    background-color: #c10000;
   }
-  .presupuestoparticipativo p a{
-    background-color: white;
-    color: #c10000;
+  .presupuestoparticipativo{
+    button:hover{
+      background-color: #c10000;
+    }
+  }
+  .presupuestoparticipativo{
+    a{
+      background-color: white;
+      color: #c10000;
+    }
   }
   .titulopresupuesto{
-    text-align: center;
     padding: 20px;
   }
-  .presupuestoparticipativo .card-body{
-    margin: 30px;
-    background-color: #f9f9f9;
-    border: #132668 solid 1px;
-  
+  .presupuestoparticipativo{
+    .card-body{
+      margin: 30px;
+      background-color: #f9f9f9;
+      border: #132668 solid 1px;
+    }
   }
-  .presupuestoparticipativo .btn-primary{
-    margin-left: 30px;
-    margin-right: 30px;
+  .presupuestoparticipativo{
+    .btn-primary{
+      margin-left: 30px;
+      margin-right: 30px;
+    }
   }
-  .presupuestoparticipativo .card-title{
-    color: #132668;
+  .presupuestoparticipativo{
+    .card-title{
+      color: #132668;
+    }
   }
-  
-  .asociateahora {
-    text-align: center;
-  }
-  .asociateahora .accordion {
-    width: auto;
-    padding-bottom: 50px;
-  }
-  
-  .asociateahora p {
-    text-align: center;
+  .asociateahora{
+    .accordion{
+      width: auto;
+      padding-bottom: 50px;
+    }
   }
   .textogrupofamiliar{
     text-align: left;

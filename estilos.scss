@@ -215,7 +215,7 @@ $color2: #132668;
   }
   @media only screen and (min-width: 800px) {
     .noticiasimportantes #carouselExampleCaptions {
-      width: 800px;
+      max-width: 1200px;
       height: 400px
     }
   }

@@ -6,8 +6,9 @@ $color2: #132668;
     padding: 0;
     box-sizing: border-box;
   }
+  /* Header */
   header {
-    background-color: #c10000;
+    background-color: $color1;
     width: auto;
     height: auto;
     border: 1px solid black;
@@ -33,12 +34,13 @@ $color2: #132668;
     color: white;
   }
   .dropdown-menu{
-    background-color: #c10000;
+    background-color: $color1;
     border: 2px solid black;
   }
   .dropdown-item{
     color: white;
   }
+   /* Main */
   main {
     border: 1px solid black;
     text-align: center;
@@ -47,12 +49,13 @@ $color2: #132668;
     color: black;
     text-decoration: none;
   }
+   /* Tabla */
   table {
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
     width: 100%;
-    border: 2px solid #132668;
+    border: 2px solid $color2;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -66,20 +69,21 @@ $color2: #132668;
   table th {
     text-transform: uppercase;
     width: 110px;
-    background: #c10000;
+    background: $color1;
     color: #e8e8e8;
     padding: 8px 0;
     font-weight: normal;
-    border-bottom: 2px solid #c10000;
+    border-bottom: 2px solid $color1;
   }
   
   i {
     padding-right: 10px;
-    color: #132668;
+    color: $color2;
   }
+   /* Footer */
   footer{
     border: 1px solid black;
-    background-color: #132668;
+    background-color: $color2;
   }
   footer div a i{
     width: 80px;
@@ -88,7 +92,7 @@ $color2: #132668;
     color: white;
   }
   footer div a i:hover{
-    color: #c10000;
+    color: $color1;
   }
   .spanfooter{
     color: white;
@@ -104,12 +108,13 @@ $color2: #132668;
     color: white;
   }
   .footer2 i{
-    color: #c10000;
+    color: $color1;
   }
   .footer2 a{
     text-decoration: none;
     color: white;
   }
+   /* @Media */
   @media only screen and (max-width: 991px){
     .dropdown-menu{
       border: none;
@@ -219,6 +224,7 @@ $color2: #132668;
       height: 400px
     }
   }
+   /* Import */
 @import "_index";
 @import "_galeria";
 @import "_historia";

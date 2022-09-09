@@ -12,13 +12,13 @@
 }
 .card{
     a{
-        background-color: #132668;
+        background-color: $color2;
         color: white;
     }
 }
 .card{
     a:hover{
-        background-color: #c10000;
+        background-color: $color1;
         color: white;
     }
 }

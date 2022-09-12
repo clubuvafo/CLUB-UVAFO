@@ -250,8 +250,7 @@ footer h6 {
 }
 @media only screen and (min-width: 800px) {
   .noticiasimportantes #carouselExampleCaptions {
-    max-width: 1200px;
-    height: 400px;
+    width: 100%;
   }
 }
 .presupuestoparticipativo {
@@ -282,11 +281,6 @@ footer h6 {
 .presupuestoparticipativo p a {
   background-color: white;
   color: #c10000;
-}
-
-.titulopresupuesto {
-  text-align: center;
-  padding: 20px;
 }
 
 .presupuestoparticipativo .card-body {
@@ -522,10 +516,6 @@ select:focus {
   text-align: left;
   color: #c10000;
   margin: 1px;
-}
-
-.titulosocios {
-  padding-top: 10px;
 }
 
 .noticiasimportantes {

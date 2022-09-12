@@ -25,10 +25,13 @@ $color2: #132668;
       margin: 20px;
     }
     .maininicio h2{
-      color: #132668;
+      color: $color2;
     }
     .maininicio h4{
-      color: #132668;
+      color: $color2;
+    }
+    .maininicio .fs-4{
+      color: $color2;
     }
 }
   .imagenescudo {

@@ -15,9 +15,20 @@ $color2: #132668;
   .maininicio{
     .col-md-12{
         margin: 20px;
+        border: $color2;
     }
     .col-md-6{
         margin: 20px;
+        border: $color2;
+    }
+    .maininicio #carouselExampleSlidesOnly{
+      margin: 20px;
+    }
+    .maininicio h2{
+      color: #132668;
+    }
+    .maininicio h4{
+      color: #132668;
     }
 }
   .imagenescudo {

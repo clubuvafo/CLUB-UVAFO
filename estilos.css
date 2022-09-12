@@ -1,17 +1,548 @@
-/* Error: Can't find stylesheet to import.
- *     ,
- * 234 | @import "_galeria";
- *     |         ^^^^^^^^^^
- *     '
- *   estilos.scss 234:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a     \2577 \a 234 \2502  @import \"_galeria\";\d\a     \2502          ^^^^^^^^^^\a     \2575 \a   estilos.scss 234:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+header {
+  background-color: #c10000;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  }
+.maininicio .col-md-12{
+    margin-bottom: 20px;
+  }
+.maininicio .col-md-6{
+    margin-bottom: 20px;
+  }
+.maininicio #carouselExampleSlidesOnly{
+  margin: 20px;
+}
+.maininicio h2{
+  color: #132668;
+}
+.maininicio h4{
+  color: #132668;
+}
+.maininicio .fs-4{
+  color: #132668;
+}
+.imagenescudo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.barra {
+  font-size: 30px;
+  margin: auto;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #c10000;
+  border: 2px solid black;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+main {
+  border: 1px solid black;
+  text-align: center;
+}
+
+main a {
+  color: black;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  width: 100%;
+  border: 2px solid #132668;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+}
+
+table th {
+  text-transform: uppercase;
+  width: 110px;
+  background: #c10000;
+  color: #e8e8e8;
+  padding: 8px 0;
+  font-weight: normal;
+  border-bottom: 2px solid #c10000;
+}
+
+i {
+  padding-right: 10px;
+  color: #132668;
+}
+
+footer {
+  border: 1px solid black;
+  background-color: #132668;
+}
+
+footer div a i {
+  width: 80px;
+  height: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+footer div a i:hover {
+  color: #c10000;
+}
+
+.spanfooter {
+  color: white;
+}
+
+.segundofooter {
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer h6 {
+  color: white;
+}
+
+.footer2 i {
+  color: #c10000;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .dropdown-menu {
+    border: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  iframe {
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .partidosfutsal #carouselExampleIndicators {
+    width: 700px;
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .deportes th {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .deportes td {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 888px) {
+  .cartasfutsal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1500px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .barra {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  .escudo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  h1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  .imagenescudo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+  header {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .textoinicio {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .select {
+    width: 135px;
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .label2 {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .textarea {
+    width: 135px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #nombre {
+    width: 135px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #numero {
+    width: 135px;
+  }
+}
+@media only screen and (max-width: 456px) {
+  .conformaciontabla {
+    display: none;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .noticiasimportantes #carouselExampleCaptions {
+    max-width: 1200px;
+    height: 400px;
+  }
+}
+.presupuestoparticipativo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.presupuestoparticipativo button {
+  background-color: #132668;
+  color: white;
+  border: black solid 1px;
+}
+
+.presupuestoparticipativo button:focus {
+  background-color: #c10000;
+  color: white;
+}
+
+.presupuestoparticipativo button:active {
+  background-color: #c10000;
+  color: white;
+}
+
+.presupuestoparticipativo button:hover {
+  background-color: #c10000;
+}
+
+.presupuestoparticipativo p a {
+  background-color: white;
+  color: #c10000;
+}
+
+.titulopresupuesto {
+  text-align: center;
+  padding: 20px;
+}
+
+.presupuestoparticipativo .card-body {
+  margin: 30px;
+  background-color: #f9f9f9;
+  border: #132668 solid 1px;
+}
+
+.presupuestoparticipativo .btn-primary {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.presupuestoparticipativo .card-title {
+  color: #132668;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.botondescarga {
+  color: white;
+}
+
+.botondescarga:hover {
+  color: white;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-footer button {
+  background-color: #132668;
+  color: white;
+  border: black 1px solid;
+}
+
+.modal-footer button:hover {
+  background-color: #c10000;
+}
+
+.modalbaby {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.botonbaby button {
+  background-color: #132668;
+  color: white;
+  border: black 1px solid;
+}
+
+.botonbaby button:hover {
+  background-color: #c10000;
+}
+
+.partidobaby img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 700;
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 800px;
+}
+
+.deportes .accordion {
+  padding-bottom: 50px;
+}
+
+.maindeportes {
+  padding-top: 25px;
+}
+
+.deportes {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cartasfutsal {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.card a {
+  background-color: #132668;
+  color: white;
+}
+
+.card a:hover {
+  background-color: #c10000;
+  color: white;
+}
+
+.partidosfutsal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.suscribirse {
+  text-align: center;
+  border: #132668 1px solid;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 20px;
+}
+
+.suscribirse h2 {
+  color: #132668;
+}
+
+.suscribirse p {
+  color: #132668;
+}
+
+.formulario {
+  display: grid;
+  grid-template-areas: "label1" "input1" "label2" "input2" "select" "textarea" "boton";
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 20px auto 0 auto;
+  max-width: 600px;
+  height: 430px;
+}
+
+.select {
+  grid-area: select;
+  margin-top: 10px;
+}
+
+.textarea {
+  grid-area: textarea;
+  margin-top: 10px;
+  resize: none;
+}
+
+.formulario .boton {
+  grid-area: boton;
+  margin-top: 10px;
+  background: #c10000;
+  color: white;
+  padding: 7px;
+  width: 100%;
+  border: 0;
+}
+
+.boton {
+  background: #c10000;
+  color: white;
+  padding: 7px;
+  border: 0;
+}
+
+#email {
+  padding: 7px;
+}
+
+#nombre {
+  grid-area: input1;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+
+#numero {
+  grid-area: input2;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+
+input:focus {
+  outline: 3px solid #132668;
+}
+
+textarea:focus {
+  outline: 3px solid #132668;
+}
+
+select:focus {
+  outline: 2px solid #132668;
+}
+
+.textocontacto i {
+  color: #c10000;
+}
+
+.textocontacto h6 {
+  color: #132668;
+}
+
+.textocontacto p {
+  color: #132668;
+}
+
+.textocontacto a {
+  color: #132668;
+  font-weight: lighter;
+}
+
+.asociateahora {
+  text-align: center;
+}
+
+.asociateahora .accordion {
+  width: auto;
+  padding-bottom: 50px;
+}
+
+.asociateahora p {
+  text-align: center;
+}
+
+.textogrupofamiliar {
+  text-align: left;
+  color: #c10000;
+  margin: 1px;
+}
+
+.titulosocios {
+  padding-top: 10px;
+}
+
+.noticiasimportantes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.noticiasgenerales {
+  margin: 20px;
+}
+
+.noticiasgenerales h2 {
+  margin: 20px;
+}
+
+.ultimasnoticias {
+  margin-top: 50px;
+}/*# sourceMappingURL=estilos.css.map */

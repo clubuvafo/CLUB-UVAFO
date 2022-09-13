@@ -546,6 +546,7 @@ select:focus {
   height: auto;
   }
   .maingaleria h2 {
+  margin-top: 20px;
   margin-bottom: 20px;
   }
   .maingaleria .grid-container {

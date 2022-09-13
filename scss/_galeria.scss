@@ -20,17 +20,6 @@ grid-gap: 20px;
 position: relative;
 }
 
-.location-image {
-line-height: 0;
-overflow: hidden;
-}
-
-.location-image img {
-filter: blur(0px);
-transition: filter 0.3s ease-in;
-transform: scale(1.1);
-}
-
 .location-title {
 font-size: 1.5em;
 font-weight: bold;
@@ -54,14 +43,8 @@ justify-content: center;
 opacity: 1;
 }
 
-.location-listing:hover .location-image img {
-filter: blur(2px);
-}
 @media (hover: none) { 
 .location-title {
 opacity: 1;
-}
-.location-image img {
-filter: blur(2px);
 }
 }

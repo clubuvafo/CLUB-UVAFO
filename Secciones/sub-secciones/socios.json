@@ -1,0 +1,12 @@
+[
+    {"nombre":"Nahuel", "apellido":"Rubio", "dni":"42726356", "categoria":"Activo"},
+    {"nombre":"Lautaro", "apellido":"Delgado", "dni":"41460819", "categoria":"Activo"},
+    {"nombre":"Lucas", "apellido":"Rubio", "dni":"40231479", "categoria":"Activo"},
+    {"nombre":"Lorena", "apellido":"Blazquez", "dni":"23783714", "categoria":"Activo"},
+    {"nombre":"Milo", "apellido":"Rubio", "dni":"50123543", "categoria":"Infantil"},
+    {"nombre":"Juan", "apellido":"Cruz", "dni":"42434122", "categoria":"Cadete"},
+    {"nombre":"Roberto", "apellido":"Juarez", "dni":"39123098", "categoria":"Activo"},
+    {"nombre":"Ian", "apellido":"Fiordimondo", "dni":"43019234", "categoria":"Activo"},
+    {"nombre":"Franco", "apellido":"Curto", "dni":"40213598", "categoria":"Activo"},
+    {"nombre":"Nicolas", "apellido":"Rodriguez", "dni":"19209123", "categoria":"Activo"}
+]

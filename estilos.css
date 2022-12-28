@@ -10,24 +10,31 @@ header {
   height: auto;
   border: 1px solid black;
   }
+
 .maininicio .col-md-12{
     margin-bottom: 20px;
   }
+
 .maininicio .col-md-6{
     margin-bottom: 20px;
   }
+
 .maininicio #carouselExampleSlidesOnly{
   margin: 20px;
 }
+
 .maininicio h2{
   color: #132668;
 }
+
 .maininicio h4{
   color: #132668;
 }
+
 .maininicio .fs-4{
   color: #132668;
 }
+
 .imagenescudo {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -144,29 +151,9 @@ footer h6 {
   text-decoration: none;
   color: white;
 }
+
 h2{
   padding-top: 50px;
-}
-#formulario {
-display: grid;
-grid-template-areas: "label1" "input1" "label2" "input2" "select" "textarea" "boton";
-padding: 10px;
-background: #f9f9f9;
-border: 1px solid #c1c1c1;
-margin: 20px auto 0 auto;
-max-width: 600px;
-height: 430px;
-}
-
-
-#formulario .button {
-grid-area: boton;
-margin-top: 10px;
-background: #c10000;
-color: white;
-padding: 7px;
-width: 100%;
-border: 0;
 }
 
 button {
@@ -176,18 +163,6 @@ padding: 7px;
 border: 0;
 }
 
-#nombre {
-grid-area: input1;
-background: #fff;
-border: 1px solid #9c9c9c;
-}
-
-#numero {
-grid-area: input2;
-background: #fff;
-border: 1px solid #9c9c9c;
-}
-
 input:focus {
 outline: 3px solid #132668;
 }
@@ -195,53 +170,39 @@ outline: 3px solid #132668;
 select:focus {
 outline: 2px solid #132668;
 }
+/* MEDIA */
 
-#verSocios{
-  margin: 50px;
-}
-#botonconfirmar{
-  margin: 10px;
-}
-#listado div{
-  border: 1px solid black;
-  background-color: #f9f9f9;
-  margin: 50px;
-  margin-inline: 150px;
-  padding: 20px;
-}
-#solicitudes{
-  border: 1px solid black;
-  background-color: #f9f9f9;
-  margin: 50px;
-  margin-inline: 150px;
-  padding: 20px;
-}
 @media only screen and (max-width: 991px) {
   .dropdown-menu {
     border: none;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   iframe {
     width: 150px;
   }
 }
+
 @media only screen and (min-width: 800px) {
   .partidosfutsal #carouselExampleIndicators {
     width: 700px;
     height: 700px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .deportes th {
     font-size: 10px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .deportes td {
     font-size: 10px;
   }
 }
+
 @media only screen and (max-width: 888px) {
   .cartasfutsal {
     display: flex;
@@ -251,11 +212,13 @@ outline: 2px solid #132668;
     height: 1500px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .navbar-brand {
     display: none;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .barra {
     font-size: 20px;
@@ -263,72 +226,91 @@ outline: 2px solid #132668;
     text-align: center;
   }
 }
+
 @media only screen and (min-width: 300px) and (max-width: 991px) {
   .escudo {
     display: none;
   }
 }
+
 @media only screen and (min-width: 300px) and (max-width: 991px) {
   h1 {
     display: none;
   }
 }
+
 @media only screen and (min-width: 300px) and (max-width: 991px) {
   .imagenescudo {
     display: none;
   }
 }
+
 @media only screen and (min-width: 300px) and (max-width: 991px) {
   header {
     height: auto;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .textoinicio {
     font-size: 14px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .select {
     width: 135px;
     font-size: 13px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .label2 {
-    font-size: 14px;
-  }
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .textarea {
     width: 135px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #nombre {
+  .input1 {
     width: 135px;
+    font-size: 14px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #numero {
+  .input2 {
     width: 135px;
+    font-size: 14px;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .input3 {
+    width: 135px;
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 456px) {
   .conformaciontabla {
     display: none;
   }
 }
+
 @media only screen and (min-width: 800px) {
   .noticiasimportantes #carouselExampleCaptions {
     width: 100%;
   }
 }
+
 @media (hover: none) { 
   .location-title {
   opacity: 1;
   }
 }
+
+/* GALERIA */
+
 .maingaleria {
   padding: 20px;
 }
@@ -337,10 +319,12 @@ outline: 2px solid #132668;
   width: 100%;
   height: auto;
 }
+
 .maingaleria h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .maingaleria .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -369,12 +353,16 @@ outline: 2px solid #132668;
   align-items: center;
   justify-content: center;
 }
+
 .location-title:hover{
   color: #132668;
 }
+
 .location-listing:hover .location-title {
   opacity: 1;
 }
+
+/* PRESUPUESTO */
 
 .presupuestoparticipativo {
   text-align: center;
@@ -420,6 +408,8 @@ outline: 2px solid #132668;
 .presupuestoparticipativo .card-title {
   color: #132668;
 }
+
+/* BABY */
 
 .modal-body {
   display: flex;
@@ -486,6 +476,8 @@ outline: 2px solid #132668;
   width: 800px;
 }
 
+/* FUTSAL */
+
 .deportes .accordion {
   padding-bottom: 50px;
 }
@@ -522,7 +514,9 @@ outline: 2px solid #132668;
   padding-bottom: 50px;
 }
 
-.suscribirse {
+/* CONTACTO */
+
+.suscribirse{
   text-align: center;
   border: #132668 1px solid;
   background-color: #f9f9f9;
@@ -530,17 +524,23 @@ outline: 2px solid #132668;
   margin: 20px;
 }
 
-.suscribirse h2 {
+.suscribirse h2{
   color: #132668;
 }
 
-.suscribirse p {
+.suscribirse p{
   color: #132668;
 }
 
 .formulario {
   display: grid;
-  grid-template-areas: "label1" "input1" "label2" "input2" "select" "textarea" "boton";
+  grid-template-areas: 
+  "input1"
+  "input2"
+  "input3"
+  "select"
+  "textarea"
+  "boton";
   padding: 10px;
   background: #f9f9f9;
   border: 1px solid #c1c1c1;
@@ -549,18 +549,18 @@ outline: 2px solid #132668;
   height: 430px;
 }
 
-.select {
+.select{
   grid-area: select;
   margin-top: 10px;
 }
 
-.textarea {
+.textarea{
   grid-area: textarea;
   margin-top: 10px;
   resize: none;
 }
 
-.formulario .boton {
+.formulario .boton{
   grid-area: boton;
   margin-top: 10px;
   background: #c10000;
@@ -570,27 +570,24 @@ outline: 2px solid #132668;
   border: 0;
 }
 
-.boton {
-  background: #c10000;
-  color: white;
-  padding: 7px;
-  border: 0;
-}
-
-#email {
-  padding: 7px;
-}
-
-#nombre {
+.input1{
   grid-area: input1;
   background: #fff;
   border: 1px solid #9c9c9c;
 }
 
-#numero {
+.input2{
   grid-area: input2;
   background: #fff;
   border: 1px solid #9c9c9c;
+  margin-top: 10px;
+}
+
+.input3{
+  grid-area: input3;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  margin-top: 10px;
 }
 
 input:focus {
@@ -605,22 +602,34 @@ select:focus {
   outline: 2px solid #132668;
 }
 
-.textocontacto i {
+.textocontacto i{
   color: #c10000;
 }
 
-.textocontacto h6 {
+.textocontacto h6{
   color: #132668;
 }
 
-.textocontacto p {
+.textocontacto p{
   color: #132668;
 }
 
-.textocontacto a {
+.textocontacto a{
   color: #132668;
   font-weight: lighter;
 }
+
+::placeholder{
+  padding-left: 5px;
+}
+
+.botonsito{
+  padding: 1.7px;
+  width: 60px;
+  border-radius: 1px;
+}
+
+/* ASOCIATE AHORA */
 
 .asociateahora {
   text-align: center;
@@ -641,6 +650,8 @@ select:focus {
   margin: 1px;
 }
 
+/* NOTICIAS */
+
 .noticiasimportantes {
   display: flex;
   justify-content: center;
@@ -658,4 +669,6 @@ select:focus {
 
 .ultimasnoticias {
   margin-top: 50px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/* */

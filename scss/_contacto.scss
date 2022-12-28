@@ -14,10 +14,9 @@ color: $color2;
 .formulario {
 display: grid;
 grid-template-areas: 
-"label1"
 "input1"
-"label2"
 "input2"
+"input3"
 "select"
 "textarea"
 "boton";
@@ -55,13 +54,18 @@ border: 0;
 #email{
 padding: 7px;
 }
-#nombre{
+.input1{
 grid-area: input1;
 background: #fff;
 border: 1px solid #9c9c9c;
 }
-#numero{
+.input2{
 grid-area: input2;
+background: #fff;
+border: 1px solid #9c9c9c;
+}
+.input3{
+grid-area: input3;
 background: #fff;
 border: 1px solid #9c9c9c;
 }

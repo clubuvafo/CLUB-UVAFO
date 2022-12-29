@@ -570,20 +570,20 @@ outline: 2px solid #132668;
   border: 0;
 }
 
-.input1{
+#input1{
   grid-area: input1;
   background: #fff;
   border: 1px solid #9c9c9c;
 }
 
-.input2{
+#input2{
   grid-area: input2;
   background: #fff;
   border: 1px solid #9c9c9c;
   margin-top: 10px;
 }
 
-.input3{
+#input3{
   grid-area: input3;
   background: #fff;
   border: 1px solid #9c9c9c;
@@ -623,7 +623,7 @@ select:focus {
   padding-left: 5px;
 }
 
-.botonsito{
+#botonsito{
   padding: 1.7px;
   width: 60px;
 }
